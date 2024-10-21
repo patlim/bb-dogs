@@ -1,7 +1,6 @@
 [build]
   command = "npm run build"
-  publish = "out"
+  publish = ".next"  # This is the default build output directory for Next.js
 
-[dev]
-  command = "npm run dev"
-  port = 3000
+[[plugins]]
+  package = "@netlify/plugin-nextjs"

@@ -3,7 +3,6 @@
 import { useEffect, useState } from "react";
 import axios from "axios";
 import styled from "styled-components";
-import { getStaticProps } from "next/dist/build/templates/pages";
 
 const Header = styled.header`
   display: flex;
